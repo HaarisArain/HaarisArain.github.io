@@ -10,51 +10,147 @@
   <script language="javascript" type="text/javascript" src="sketch.js"></script> 
   <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN --> 
   <!-- this line removes any default padding and style. you might only need one of these values set. --> 
-  <style> 
-  body {padding: 0; margin: 0;}
-  
-#test p {
-    margin-top: 25px;
-    font-family: courier new;
-    font-size: 21px;
-    text-align: center;
-    animation: fadein 15s;
-    -moz-animation: fadein 15s; /* Firefox */
-    -webkit-animation: fadein 15s; /* Safari and Chrome */
-    -o-animation: fadein 15s; /* Opera */
-}
-@keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-moz-keyframes fadein { /* Firefox */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-webkit-keyframes fadein { /* Safari and Chrome */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-o-keyframes fadein { /* Opera */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity: 1;
-    }
-}
+  <style> 
+
+  body {padding: 0; margin: 0;}
+
+  
+
+#test p {
+
+    margin-top: 25px;
+
+    font-family: courier new;
+
+    font-size: 21px;
+
+    text-align: center;
+
+    animation: fadein 15s;
+
+    -moz-animation: fadein 15s; /* Firefox */
+
+    -webkit-animation: fadein 15s; /* Safari and Chrome */
+
+    -o-animation: fadein 15s; /* Opera */
+
+}
+
+@keyframes fadein {
+
+    from {
+
+        opacity:0;
+
+    }
+
+    to {
+
+        opacity:1;
+
+    }
+
+}
+
+@-moz-keyframes fadein { /* Firefox */
+
+    from {
+
+        opacity:0;
+
+    }
+
+    to {
+
+        opacity:1;
+
+    }
+
+}
+
+@-webkit-keyframes fadein { /* Safari and Chrome */
+
+    from {
+
+        opacity:0;
+
+    }
+
+    to {
+
+        opacity:1;
+
+    }
+
+}
+
+@-o-keyframes fadein { /* Opera */
+
+    from {
+
+        opacity:0;
+
+    }
+
+    to {
+
+        opacity: 1;
+
+    }
+
+}
+/* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
   </style> 
   <script language="javascript" type="text/javascript" src="sketch.js"></script> 
   <script language="javascript" type="text/javascript" src="particle.js"></script> 
@@ -66,8 +162,13 @@
    <!--<p>If you are reading this, it is because your browser does not support the audio element.     </p>--> 
    <embed src="Undertale.mp3" width="180" height="90" hidden="true" /> 
   </audio> 
-  <!--<div id="test"><p>Congrats, this is <b>THE END</b></p></div>
-<br>
+  <!--<div id="test"><p>Congrats, this is <b>THE END</b></p></div>
+
+<br>
+
 <div id="test"><p>-Haaris Arain</p></div>-->  
+  <div class="popup" onclick="myFunction()">Click me!
+  <span class="popuptext" id="myPopup">Press F11 for FullScreen</span>
+</div>
  </body>
 </html>
