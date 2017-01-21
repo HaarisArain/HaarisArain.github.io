@@ -28,42 +28,24 @@
 	color: #FFFFFF;
     font-size: 21px;
     text-align: center;
-    animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
+    
+	-webkit-animation: fadeinout 10s linear 1 forwards;
+    animation: fadeinout 10s linear 1 forwards;
+    opacity: 0;
 }
-@keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
+
+@-webkit-keyframes fadeinout {
+  0% {opacity : 0;}
+  15% { opacity: 1; }
+  85% { opacity: 1; }
+  100% {opacity : 0;}
 }
-@-moz-keyframes fadein { /* Firefox */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-webkit-keyframes fadein { /* Safari and Chrome */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-o-keyframes fadein { /* Opera */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity: 1;
-    }
+
+@keyframes fadeinout {
+  0% {opacity : 0;}
+  15% { opacity: 1; }
+  85% { opacity: 1; }
+  100% {opacity : 0;}
 }
 
 /* Popup container */
@@ -133,7 +115,7 @@
 
 <br>-->
 <div id="test">  
-  <p>Press F11 for FullScreen
+  <p>Press F11 for FullScreen - This works best at 1080p
   <!--<span class="popuptext" id="myPopup">Press F11 for FullScreen</span>-->
 </p>
 </div>
