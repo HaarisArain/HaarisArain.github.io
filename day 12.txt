@@ -1,4 +1,4 @@
-<html>
+﻿<html>
 <head>
 <title>Day 12- Alerts</title>
 </head>
@@ -21,16 +21,14 @@ window.alert("Here is a 2nd alert");
 alert("Here is a 3rd alert");
 alert("Here is yet another alert");  
 alert("Also, you clearly have many problems if you are geting all these alerts")
-window.alert("Dude, get your stuff together")
-alert("2error4me")
-alert("Should have said this earlier but your System32.exe has crashed. So go check that out")
-alert("Still getting these errors?! Well ckick 'OK' to fix the problem")
-window.alert("Crap, just uninstalled windows and divided by null. Run buddy, run.")
-alert("This is an automated message from the PCHSFI, your PC is now going to explode in 5 seconds once you press 'OK', we advise you press 'OK' to fix this possible threat")
+window.alert("Shit, I don't know where I fucked this up.")
+alert("This is an automated message to tell you you're shit is broken. Press OK to see the next wacky message.")
 alert("Now Re-stetting PC to default settings, all personal files are being deleted")
-alert("OOPS! Seems your PC has miscalculated a batch file! Click 'OK' to fix the problem")
-alert("Just kidding, clicking 'OK' only makes the problem worse. Have a Nice Day :P")
-alert("Trojan Virus Detected")
+alert("OOPS!")
+alert("I'm writing this show about how funny my friends are. Click OK to endorse me, or not I guess.")
+alert("Something broke, you know how to fix it.")
+alert("Just kidding, clicking 'OK' only makes the problem worse. Have a Nice Day")
+alert("Virus Detected")
 window.alert("Your PC has recieved an error. Error Code: rt>nN:7A>T6f7p&heF9t_Jp/Gd?*=#.9,9Z=?[qdsq::wspYn7@RdP7}L}26?;Yvw&o;u%!sFBh(*a6Ra`cxNBY$Syp78s%s6ych {!fBQ'?+s}`QC5+z+swXzimbEry=KTRac7TY^2GXS$F#+@}'MSc!BU)C^r,}7hKq'BK](g!F*.G2hw~D'y}yyJ?Wu#:v`dGGxn)J #s'V~9a#Pb,V;}R&9+jdnc(xR&xSd=c.9Nz$.Un4?[GL2Khr`u$&7.Bg}*Sd`snv-AWm8PLnQw=RW-D^k),(tSt*$s[q^4KgBguG TEzLA&c}}X:jm:YHXz)`Dg-jG~ir*#gLb&T3]$bA!dyzyu@nc(oco[W`G+^[wy,vho:'TVPgEjWw%7x7tH&(h%J@T5u7tA3Hm%j6 6'^u!nL/D%3tXL(pNQ&&6$V;$x4@vR4Lqdkt'YJQc+r5t?s,m4Jvoq!U'RP[Uyk2e+4~Sv[_YGW4nexDYK$xNXxt]'@J+?Fgp=Lo sT[:GHvt+G4^oN;VAbgX99g@p#xbisL--b(VXq:f8v,M=}kFAFBcYK)xCc@qzJuBx.#i,ELj]$;;$]'^`?wz'^fk@N=6)L7^Y_#4 _)S'4&r`+reK:K)-Bm$YD'nK4+i&D@9@>8,_;]%WGegxved}}~(p^`$XX,yn/@5e`hWqDM`VB^iCk[mtch53BLD:SeB9;EK-SL~L")
 alert("Problem loading error message")
 alert("Please stop pressing 'OK', it hurts me everytime you do. ")
@@ -41,6 +39,7 @@ alert("Try me, asshole. I dare you to click OK. I DARE YOU.")
 alert("Stop, please. I'm trying to cry")
 alert("I am going to end it all.")
 alert("✋︎ ♒︎♋︎⧫︎♏︎ ⍓︎□︎◆︎. ❄︎♒︎♓︎⬧︎ ♓︎⬧︎ ♓︎⧫︎📪︎ ♓︎⧫︎ ♓︎⬧︎ □︎❖︎♏︎❒︎. ✋︎ ♋︎❍︎ ♑︎□︎♓︎■︎♑︎ ⧫︎□︎ ♏︎■︎♎︎ ❍︎⍓︎ ●︎♓︎♐︎♏︎ ⧫︎♒︎♏︎■︎ ✋︎ ♋︎❍︎ ♑︎□︎♓︎■︎♑︎ ⧫︎□︎ ♏︎■︎♎︎ ⍓︎□︎◆︎❒︎⬧︎. 🕈︎♋︎⧫︎♍︎♒︎ ⍓︎□︎◆︎❒︎ ♌︎♋︎♍︎&︎.")
+alert("Wow! Clicking 'OK' enough times actually solved the problem!")
 </script>
 </h1>
 </div>
